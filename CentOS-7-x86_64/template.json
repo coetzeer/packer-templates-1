@@ -6,6 +6,8 @@
         "scripts/base.sh",
         "scripts/vagrant.sh",
         "scripts/virtualbox.sh",
+        "scripts/zfs.sh",
+        "scripts/ansible.sh",
         "scripts/cleanup.sh",
         "scripts/zerodisk.sh"
       ],
@@ -37,13 +39,13 @@
           "modifyvm",
           "{{.Name}}",
           "--memory",
-          "3072"
+          "2048"
         ],
         [
           "modifyvm",
           "{{.Name}}",
           "--cpus",
-          "3"
+          "1"
         ]
       ]
     }
