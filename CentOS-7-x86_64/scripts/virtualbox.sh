@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Installing the virtualbox guest additions
 VBOX_VERSION=$(cat /home/vagrant/.vbox_version)
 cd /tmp
