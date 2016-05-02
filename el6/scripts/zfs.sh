@@ -1,7 +1,7 @@
 #!/bin/bash -eu +x
 
 set -e
-curl http://archive.zfsonlinux.org
+curl http://archive.zfsonlinux.org > /dev/null
 if [ $? -ne 0 ];
 then
   echo "archive.zfsonlinux.org doesn't appear to be available" && exit 1;

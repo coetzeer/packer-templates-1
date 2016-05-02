@@ -25,9 +25,9 @@
       "guest_os_type": "RedHat_64",
       "headless": "true",
       "http_directory": "http",
-      "iso_checksum": "d5ee154d7f6107795219eb09c600ad688472033be05b50a288c189fcb10aac5d",
-      "iso_checksum_type": "sha256",
-      "iso_url": "https://ftp.heanet.ie/mirrors/scientific/7/x86_64/iso/SL-7.2-x86_64-netinst.iso",
+      "iso_checksum": "03e048f23d798c8e8e7935fab76245c2f1341378",
+      "iso_checksum_type": "sha1",
+      "iso_url": "https://ftp.heanet.ie/mirrors/oracle-linux/OL7/u2/x86_64/OracleLinux-R7-U2-Server-x86_64-dvd.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -54,7 +54,7 @@
   "post-processors": [
     {
       "type": "vagrant",
-      "output": "Scientific-7-x86_64-{{ .Provider }}.box"
+      "output": "Oracle-7-x86_64-{{ .Provider }}.box"
     }
   ]
 }

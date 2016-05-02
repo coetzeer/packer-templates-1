@@ -3,13 +3,13 @@
     {
       "type": "shell",
       "scripts": [
-        "scripts/base.sh",
-        "scripts/vagrant.sh",
-        "scripts/virtualbox.sh",
-        "scripts/zfs.sh",
-        "scripts/ansible.sh",
-        "scripts/cleanup.sh",
-        "scripts/zerodisk.sh"
+        "../el7/scripts/base.sh",
+        "../el7/scripts/vagrant.sh",
+        "../el7/scripts/virtualbox.sh",
+        "../el7/scripts/zfs.sh",
+        "../el7/scripts/ansible.sh",
+        "../el7/scripts/cleanup.sh",
+        "../el7/scripts/zerodisk.sh"
       ],
       "execute_command": "echo 'vagrant'|sudo -S sh '{{.Path}}'"
     }
