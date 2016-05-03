@@ -3,3 +3,4 @@ logs
 *.box
 metadata.json
 Vagrantfile
+*.iso
