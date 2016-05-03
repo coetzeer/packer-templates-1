@@ -23,7 +23,7 @@
       "boot_wait": "10s",
       "disk_size": 20480,
       "guest_os_type": "RedHat_64",
-      "headless": "true",
+      "headless": "false",
       "http_directory": "http",
       "iso_checksum": "bef6ead5ca46b1dae257265c65ae2f10ccae15056db5d2e175901a214d8b924e",
       "iso_checksum_type": "sha256",
