@@ -119,7 +119,7 @@
 
     <software>
         <image/>
-	<instsource>http://download.opensuse.org/distribution/leap/42.1/repo/oss/</instsource>
+        <instsource>http://download.opensuse.org/distribution/leap/42.1/repo/oss/</instsource>
         <do_online_update config:type="boolean">true</do_online_update>
         <kernel>kernel-default</kernel>
         <patterns config:type="list">
@@ -146,9 +146,10 @@
             <package>autoyast2</package>
             <package>yast2-installation</package>
             <package>yast2-network</package>
-	    <package>yast2-theme-openSUSE</package>
-	    <package>iputils</package>
-	    <package>vim</package>
+            <package>git</package>
+            <package>yast2-theme-openSUSE</package>
+            <package>iputils</package>
+            <package>vim</package>
         </packages>
         <remove-packages config:type="list">
             <package>desktop-translations</package>
